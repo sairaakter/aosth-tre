@@ -1,0 +1,147 @@
+.videos {
+  display: flex;
+  width: 100%;
+  /* justify-items: center; */
+  justify-content: center;
+}
+.video {
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-bottom: 1rem;
+  margin-bottom: 20px;
+}
+
+.video:hover {
+  box-shadow: 0 0 15px 0 #e5e5e5;
+}
+
+.video p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  overflow: hidden;
+}
+
+.video img {
+  width: 100%;
+}
+
+.video .qmeta {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 6px;
+}
+
+.video .qmeta p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header start */
+  .titl {
+    display: none;
+  }
+  .menu {
+    display: inline;
+  }
+  .menu ul li:first-child a {
+    display: none;
+  }
+  .c_nav {
+    margin: 0;
+  }
+  .video .qmeta {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: baseline;
+  }
+  .cnotr {
+    width: 99%;
+    margin: 1rem auto;
+  }
+  /* signup start */
+  .illustration {
+    display: none;
+  }
+
+  .rangeArea {
+    width: 44%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .next span:first-child {
+    display: none;
+  }
+  .progressBar {
+    width: calc(100vw - 60px);
+    bottom: 10px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header start */
+  .titl {
+    display: none;
+  }
+  /* signup start */
+  .illustration {
+    display: none;
+  }
+  .info {
+    margin-top: 0rem;
+  }
+
+  .rangeArea {
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .next span:first-child {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* signup start */
+  .illustration {
+    display: none;
+  }
+  .rangeArea {
+    width: 78%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .next span:first-child {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .rangeArea {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .next span:first-child {
+    display: none;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 2500px) {
+}

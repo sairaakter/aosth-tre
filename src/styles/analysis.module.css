@@ -1,0 +1,9 @@
+/* analysis component */
+.analysis {
+  margin: 2rem auto;
+}
+
+.analysis h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
